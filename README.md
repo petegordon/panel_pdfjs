@@ -10,3 +10,9 @@ coordinates_string = """{"65":[0,800,0,0]}"""
 ```
 
 Behaves a little funky for refresh. But, gives the basic point.
+
+Launch on the command line doing this:
+
+```
+python -m panel serve panel4.py --dev --show --static-dirs pdfjs-3.8.162-dist=./pdfjs-3.8.162-dist pdf=./pd
+```
